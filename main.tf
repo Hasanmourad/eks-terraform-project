@@ -4,8 +4,8 @@ terraform {
     bucket       = "efe-eks-gp"
     key          = "eks-infra/terraform.tfstate"
     region       = "us-east-1"
-    use_lockfile = true
-    encrypt      = true
+    # use_lockfile = true
+    # encrypt      = true
   }
   required_version = ">= 1.0"
 
